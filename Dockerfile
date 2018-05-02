@@ -8,4 +8,4 @@ RUN npm i -g gulp && \
 VOLUME /data
 WORKDIR /data
 
-ENTRYPOINT ["gulp"]
+CMD ["gulp"]
